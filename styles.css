@@ -1,0 +1,147 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #f8f9fb;
+  color: #333;
+  width: 110%;
+}
+
+header {
+  background: #383737;
+  color: white;
+  text-align: center;;
+  padding: 20px;
+}
+.size{
+    font-size: 30px;
+    font-weight: 900;
+  color: #ffffff;
+}
+.container{
+    font-size: 25px;
+    font-weight: 350;
+}
+.width{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.nav {
+  list-style: none;
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.nav li a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transform: 0.3s ease;
+  background-color: #585656;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.273);
+  transform: 0.5s ease;
+}
+
+.nav li a:hover {
+  transition:transform scale(2 0.3s ease-in-out); 
+  background: #ffffff;
+  color: #283593;
+}
+.nav li a.active {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.intro{
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    margin-bottom: 10px;
+    padding: 20px;
+}
+.resume, .contact {
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+.intro-image{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 3rem;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #ea882d;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  margin-top: 10px;
+  transform: 0.3s ease;
+}
+.btn:hover {
+  transition: 0.3s ease-in-out;
+  background: #db6f02f8;
+}
+.profile {
+  width: 300px;
+  margin: 0 auto 15px;
+  opacity: 0.95;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.skills li {
+  margin-bottom: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input, form textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+}
+
+button {
+  background: #283593;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1a237e;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  margin-left: -40px;
+  margin-top: 10px;
+  background: #919191;
+  color: white;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
